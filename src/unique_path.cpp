@@ -17,11 +17,16 @@
 # define BOOST_SYSTEM_NO_DEPRECATED
 #endif
 
+#include <boost/system/error_code.hpp>
 #include <boost/filesystem/operations.hpp>
 #include <cassert>
+#include <cstdlib>
+#include <cerrno>
+#include <string>
 
 # ifdef BOOST_POSIX_API
 #   include <fcntl.h>
+#   include <unistd.h>
 # else // BOOST_WINDOWS_API
 #   include <windows.h>
 #   include <wincrypt.h>

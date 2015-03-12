@@ -1,0 +1,14 @@
+module boost_filesystem {
+  header "boost/filesystem/config.hpp"
+  header "boost/filesystem/convenience.hpp"
+  header "boost/filesystem/detail/utf8_codecvt_facet.hpp"
+  header "boost/filesystem/exception.hpp"
+  header "boost/filesystem/fstream.hpp"
+  header "boost/filesystem.hpp"
+  header "boost/filesystem/operations.hpp"
+  header "boost/filesystem/path.hpp"
+  header "boost/filesystem/path_traits.hpp"
+  export boost_iterator
+
+  link "boost_filesystem"
+}

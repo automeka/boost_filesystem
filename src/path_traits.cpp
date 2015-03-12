@@ -24,6 +24,9 @@
 #include <locale>   // for codecvt_base::result
 #include <cstring>  // for strlen
 #include <cwchar>   // for wcslen
+#include <cstdlib>
+#include <string>
+#include <codecvt>
 
 namespace pt = boost::filesystem::path_traits;
 namespace fs = boost::filesystem;

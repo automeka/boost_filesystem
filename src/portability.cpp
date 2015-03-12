@@ -23,6 +23,7 @@
 namespace fs = boost::filesystem;
 
 #include <cstring> // SGI MIPSpro compilers need this
+#include <string>
 
 # ifdef BOOST_NO_STDC_NAMESPACE
     namespace std { using ::strerror; }

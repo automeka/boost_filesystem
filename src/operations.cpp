@@ -44,6 +44,7 @@
 #include <boost/filesystem/operations.hpp>
 #include <boost/scoped_array.hpp>
 #include <boost/detail/workaround.hpp>
+#include <boost/system/error_code.hpp>
 #include <vector> 
 #include <cstdlib>     // for malloc, free
 #include <cstring>
@@ -52,6 +53,7 @@
 # include <stdio.h>
 #endif
 #include <cerrno>
+#include <ctime>
 
 #ifdef BOOST_FILEYSTEM_INCLUDE_IOSTREAM
 # include <iostream>
